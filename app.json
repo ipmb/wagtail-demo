@@ -1,0 +1,12 @@
+{
+  "environments": {
+    "test": {
+      "env": {
+        "SECRET_KEY": "not_secret"
+      },
+      "scripts": {
+        "test": "python manage.py test --noinput"
+      }
+    }
+  }
+}

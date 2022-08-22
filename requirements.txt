@@ -5,3 +5,4 @@ psycopg2
 gunicorn
 whitenoise
 django-alive
+django-storages[boto3]
